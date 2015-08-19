@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81695348144FD4E200ECBB4F /* MergingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81695346144FD4E200ECBB4F /* MergingViewController.m */; };
+		81695349144FD4E200ECBB4F /* MergingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81695347144FD4E200ECBB4F /* MergingViewController.xib */; };
+		8169534C144FFBD400ECBB4F /* SAVValidateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8169534B144FFBD400ECBB4F /* SAVValidateHelper.m */; };
+		8169534F144FFD5F00ECBB4F /* SAVStringsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8169534E144FFD5F00ECBB4F /* SAVStringsParser.m */; };
+		8170223F1456B055003EC294 /* ConvertCSVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170223D1456B055003EC294 /* ConvertCSVViewController.m */; };
+		817022401456B055003EC294 /* ConvertCSVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8170223E1456B055003EC294 /* ConvertCSVViewController.xib */; };
+		817022461456B26B003EC294 /* SAVCSVReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 817022431456B26A003EC294 /* SAVCSVReader.m */; };
+		817022471456B26B003EC294 /* SAVCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 817022451456B26A003EC294 /* SAVCSVWriter.m */; };
+		81AAFC98143B08EE00831D33 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AAFC97143B08EE00831D33 /* Cocoa.framework */; };
+		81AAFCA2143B08EE00831D33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81AAFCA0143B08EE00831D33 /* InfoPlist.strings */; };
+		81AAFCA4143B08EE00831D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AAFCA3143B08EE00831D33 /* main.m */; };
+		81AAFCA8143B08EE00831D33 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81AAFCA6143B08EE00831D33 /* Credits.rtf */; };
+		81AAFCAB143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AAFCAA143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.m */; };
+		81AAFCAE143B08EF00831D33 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81AAFCAC143B08EF00831D33 /* MainMenu.xib */; };
+		81F195C7143C079F001324B3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81F195C6143C079F001324B3 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81695345144FD4E200ECBB4F /* MergingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergingViewController.h; sourceTree = "<group>"; };
+		81695346144FD4E200ECBB4F /* MergingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergingViewController.m; sourceTree = "<group>"; };
+		81695347144FD4E200ECBB4F /* MergingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MergingViewController.xib; sourceTree = "<group>"; };
+		8169534A144FFBD400ECBB4F /* SAVValidateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVValidateHelper.h; sourceTree = "<group>"; };
+		8169534B144FFBD400ECBB4F /* SAVValidateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVValidateHelper.m; sourceTree = "<group>"; };
+		8169534D144FFD5F00ECBB4F /* SAVStringsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVStringsParser.h; sourceTree = "<group>"; };
+		8169534E144FFD5F00ECBB4F /* SAVStringsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVStringsParser.m; sourceTree = "<group>"; };
+		8170223C1456B055003EC294 /* ConvertCSVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertCSVViewController.h; sourceTree = "<group>"; };
+		8170223D1456B055003EC294 /* ConvertCSVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertCSVViewController.m; sourceTree = "<group>"; };
+		8170223E1456B055003EC294 /* ConvertCSVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConvertCSVViewController.xib; sourceTree = "<group>"; };
+		817022421456B26A003EC294 /* SAVCSVReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVCSVReader.h; sourceTree = "<group>"; };
+		817022431456B26A003EC294 /* SAVCSVReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVCSVReader.m; sourceTree = "<group>"; };
+		817022441456B26A003EC294 /* SAVCSVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVCSVWriter.h; sourceTree = "<group>"; };
+		817022451456B26A003EC294 /* SAVCSVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVCSVWriter.m; sourceTree = "<group>"; };
+		81AAFC93143B08EE00831D33 /* CocoaLocalizedTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLocalizedTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AAFC97143B08EE00831D33 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		81AAFC9A143B08EE00831D33 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		81AAFC9B143B08EE00831D33 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		81AAFC9C143B08EE00831D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81AAFC9F143B08EE00831D33 /* CocoaLocalizedTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaLocalizedTool-Info.plist"; sourceTree = "<group>"; };
+		81AAFCA1143B08EE00831D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81AAFCA3143B08EE00831D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81AAFCA5143B08EE00831D33 /* CocoaLocalizedTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaLocalizedTool-Prefix.pch"; sourceTree = "<group>"; };
+		81AAFCA7143B08EE00831D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		81AAFCA9143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaLocalizedToolAppDelegate.h; sourceTree = "<group>"; };
+		81AAFCAA143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaLocalizedToolAppDelegate.m; sourceTree = "<group>"; };
+		81AAFCAD143B08EF00831D33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81F195C6143C079F001324B3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81AAFC90143B08EE00831D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AAFC98143B08EE00831D33 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817022481456B26E003EC294 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				817022421456B26A003EC294 /* SAVCSVReader.h */,
+				817022431456B26A003EC294 /* SAVCSVReader.m */,
+				817022441456B26A003EC294 /* SAVCSVWriter.h */,
+				817022451456B26A003EC294 /* SAVCSVWriter.m */,
+			);
+			name = CSV;
+			sourceTree = "<group>";
+		};
+		81AAFC88143B08EE00831D33 = {
+			isa = PBXGroup;
+			children = (
+				81AAFC9D143B08EE00831D33 /* CocoaLocalizedTool */,
+				81AAFC96143B08EE00831D33 /* Frameworks */,
+				81AAFC94143B08EE00831D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81AAFC94143B08EE00831D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81AAFC93143B08EE00831D33 /* CocoaLocalizedTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81AAFC96143B08EE00831D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AAFC97143B08EE00831D33 /* Cocoa.framework */,
+				81AAFC99143B08EE00831D33 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81AAFC99143B08EE00831D33 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AAFC9A143B08EE00831D33 /* AppKit.framework */,
+				81AAFC9B143B08EE00831D33 /* CoreData.framework */,
+				81AAFC9C143B08EE00831D33 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		81AAFC9D143B08EE00831D33 /* CocoaLocalizedTool */ = {
+			isa = PBXGroup;
+			children = (
+				817022481456B26E003EC294 /* CSV */,
+				8169534D144FFD5F00ECBB4F /* SAVStringsParser.h */,
+				8169534E144FFD5F00ECBB4F /* SAVStringsParser.m */,
+				8169534A144FFBD400ECBB4F /* SAVValidateHelper.h */,
+				8169534B144FFBD400ECBB4F /* SAVValidateHelper.m */,
+				81AAFCA9143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.h */,
+				81AAFCAA143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.m */,
+				81AAFCAC143B08EF00831D33 /* MainMenu.xib */,
+				81695345144FD4E200ECBB4F /* MergingViewController.h */,
+				81695346144FD4E200ECBB4F /* MergingViewController.m */,
+				81695347144FD4E200ECBB4F /* MergingViewController.xib */,
+				8170223C1456B055003EC294 /* ConvertCSVViewController.h */,
+				8170223D1456B055003EC294 /* ConvertCSVViewController.m */,
+				8170223E1456B055003EC294 /* ConvertCSVViewController.xib */,
+				81AAFC9E143B08EE00831D33 /* Supporting Files */,
+			);
+			path = CocoaLocalizedTool;
+			sourceTree = "<group>";
+		};
+		81AAFC9E143B08EE00831D33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F195C6143C079F001324B3 /* icon.icns */,
+				81AAFC9F143B08EE00831D33 /* CocoaLocalizedTool-Info.plist */,
+				81AAFCA0143B08EE00831D33 /* InfoPlist.strings */,
+				81AAFCA3143B08EE00831D33 /* main.m */,
+				81AAFCA5143B08EE00831D33 /* CocoaLocalizedTool-Prefix.pch */,
+				81AAFCA6143B08EE00831D33 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81AAFC92143B08EE00831D33 /* CocoaLocalizedTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AAFCB1143B08EF00831D33 /* Build configuration list for PBXNativeTarget "CocoaLocalizedTool" */;
+			buildPhases = (
+				81AAFC8F143B08EE00831D33 /* Sources */,
+				81AAFC90143B08EE00831D33 /* Frameworks */,
+				81AAFC91143B08EE00831D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLocalizedTool;
+			productName = CocoaLocalizedTool;
+			productReference = 81AAFC93143B08EE00831D33 /* CocoaLocalizedTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81AAFC8A143B08EE00831D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Savvycom JSC";
+			};
+			buildConfigurationList = 81AAFC8D143B08EE00831D33 /* Build configuration list for PBXProject "CocoaLocalizedTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81AAFC88143B08EE00831D33;
+			productRefGroup = 81AAFC94143B08EE00831D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AAFC92143B08EE00831D33 /* CocoaLocalizedTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81AAFC91143B08EE00831D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AAFCA2143B08EE00831D33 /* InfoPlist.strings in Resources */,
+				81AAFCA8143B08EE00831D33 /* Credits.rtf in Resources */,
+				81AAFCAE143B08EF00831D33 /* MainMenu.xib in Resources */,
+				81F195C7143C079F001324B3 /* icon.icns in Resources */,
+				81695349144FD4E200ECBB4F /* MergingViewController.xib in Resources */,
+				817022401456B055003EC294 /* ConvertCSVViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81AAFC8F143B08EE00831D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AAFCA4143B08EE00831D33 /* main.m in Sources */,
+				81AAFCAB143B08EE00831D33 /* CocoaLocalizedToolAppDelegate.m in Sources */,
+				81695348144FD4E200ECBB4F /* MergingViewController.m in Sources */,
+				8169534C144FFBD400ECBB4F /* SAVValidateHelper.m in Sources */,
+				8169534F144FFD5F00ECBB4F /* SAVStringsParser.m in Sources */,
+				8170223F1456B055003EC294 /* ConvertCSVViewController.m in Sources */,
+				817022461456B26B003EC294 /* SAVCSVReader.m in Sources */,
+				817022471456B26B003EC294 /* SAVCSVWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81AAFCA0143B08EE00831D33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AAFCA1143B08EE00831D33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81AAFCA6143B08EE00831D33 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AAFCA7143B08EE00831D33 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		81AAFCAC143B08EF00831D33 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AAFCAD143B08EF00831D33 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81AAFCAF143B08EF00831D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81AAFCB0143B08EF00831D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81AAFCB2143B08EF00831D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaLocalizedTool/CocoaLocalizedTool-Prefix.pch";
+				INFOPLIST_FILE = "CocoaLocalizedTool/CocoaLocalizedTool-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81AAFCB3143B08EF00831D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaLocalizedTool/CocoaLocalizedTool-Prefix.pch";
+				INFOPLIST_FILE = "CocoaLocalizedTool/CocoaLocalizedTool-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81AAFC8D143B08EE00831D33 /* Build configuration list for PBXProject "CocoaLocalizedTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AAFCAF143B08EF00831D33 /* Debug */,
+				81AAFCB0143B08EF00831D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AAFCB1143B08EF00831D33 /* Build configuration list for PBXNativeTarget "CocoaLocalizedTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AAFCB2143B08EF00831D33 /* Debug */,
+				81AAFCB3143B08EF00831D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81AAFC8A143B08EE00831D33 /* Project object */;
+}
